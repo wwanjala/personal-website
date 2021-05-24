@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.75em;
+}
+
+html{overflow-x: hidden;}
+
+.header ul{
+    border: 1px solid gray;
+    padding:  0.8em;
+    border-radius: 0.35em;
+    width: 60%;
+    text-align: center;
+    margin-left: 22%;
+}
+
+.header li{
+    display: inline-block;
+    text-transform: uppercase;
+    align-items: center;
+    margin:0 15px;
+    padding: 0 5px;
+    font-size: 0.65em;
+    letter-spacing: 0.25em;
+}
+
+.header a{
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.header a:hover{color:#eee;}
+
+.main-nav{
+    background-image: url(/css/banner.jpg);
+    padding-top: 2.5px;
+    background-size: cover;
+
+}
+
+.header p{
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin: 1.25em 0 0 0;
+    display: block;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+strong{
+    font-weight: 700;
+    color: #fff;
+}
+
+.main-nav h1{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25em;
+    margin-top: 12%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* ABOUT ME */
+
+.about-me{
+    background: #e97770 url(/css/image/overlay.png);
+    background-color:rgba(233, 119, 112);
+    color: #eee;
+    text-align: center;
+}
+
+.style1{
+    padding-top: 60px;
+    text-align: center;
+    color: #eee;
+    font-size: 30px;
+    letter-spacing:0.075em ;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.style2{
+    font-weight: 700;
+    color: #fff;
+    border-radius: 0.35em;
+    font-size: 2.75em;
+    letter-spacing: 0.075em;
+    line-height: 1.35em;
+    text-align: center;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 25%);
+    padding: 1em 0 1em 0;
+    margin:1em 3em 1em 3em ;
+}
+
+.style3{
+    text-align: center;
+    font-size: 17px;
+    color: #eee;
+}
+
+.about-me p:first-child{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 3.25em;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+#prof{
+    padding-bottom: 6em;
+     margin-top: 6%;
+    }
+   
+#prof a{
+    text-transform: uppercase;
+    padding: 1.5em 4em ;
+    border-radius: 0.35em;
+    background-color: #444;
+    text-decoration: none;
+    letter-spacing: 0.25em;
+    color: #fff;
+    font-weight: 700;
+}
+
+#prof a:hover{background-color:rgb(78, 78, 78);}
+/* icons */
+
+.icons{
+    font-size: 16px;
+    color: #e97770;
+    font-weight: 700;
+}
+
+u:hover{text-decoration: transparent;}
+
+.icons i{
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid #2f333b ;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: #2f333b;
+    font-size: 30px;
+}
+
+/* SKILLS SECTION */
+
+.conta{
+    margin-top:30px;
+    border-top: 1px solid #eee;
+    padding-top: 3em;
+}
+.icon{ 
+    margin-left: 80px;
+    color: #919499;
+    letter-spacing: 0.025em;
+    font-size: 12pt;
+}
+
+.icon strong{color: #484d55;}
+
+#cont-1{
+    background: #fff;
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-bottom: 4em;
+}
+
+.skills{
+    margin: 20px  220px;
+   padding-bottom: 9em;
+   color: #484d55;
+}
+
+.skills a{
+    text-decoration: none;
+    background-color:#e97770 ;
+    letter-spacing: 0.25em;
+    color: #fff;
+    padding: 24px 2.5em;
+    border-radius: 0.35em;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.ja{
+    text-align: center;
+    margin-top: 5em;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    background-color:rgb(243,243,243);
+    background-image: url(/css/image/overlay.png);
+    padding-bottom: 2em;
+}
+
+.table1{ margin: 20px 90px;}
+
+.port{
+    letter-spacing: 0.25em;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #484d55;
+}
+.demo-2 a:hover{background-color: #ec8f8b;}
+
+.send:hover{background-color: #ec8f8b;}
+
+.portfolio img {
+    margin-top: 20px;
+    border: 12px solid #fff;
+}
+
+.demo-1{
+    margin: 3em 4em   ;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.demo-1 a{
+    font-size: 0.9em;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+    padding: 20px 25px;
+    background-color: #e97770;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.35em;
+}
+
+.c1 a{
+    color: #e97770;
+    font-weight:600;
+    margin: 0 0 0.75em 0;
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.demo{
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #919499;
+    font-size: 11pt;
+}
+
+.move{padding-left: 4em;}
+
+.move1{padding-right: 10em;}
+
+/* FOOTER */
+
+.footer-section{
+    background:#282b34 url(/css/image/overlay.png);
+    padding-bottom: 4em;
+    background-color: rgb(40, 43, 52);
+    color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+.luko{
+    text-align: center; 
+    padding-top: 20px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.25em;
+    font-size: 0.9em;
+    margin-bottom: 8em;
+}
+
+.p2{
+    text-align: center;
+    color: #b1b4b9;
+    font-size: 1.3em;
+    letter-spacing: 0.075em;
+    line-height: 1.5em;
+    margin-top: 1.15em;
+}
+
+
+.p1{
+   padding-top: 40px;
+   color: #fff;
+   text-align: center;
+   font-size: 2em;
+   letter-spacing: 0.075em;
+   font-weight: 700;
+}
+
+.contact{
+    margin-left:70px ;
+    color: #fff;
+    letter-spacing: 0.025em;
+    font-size:0.8em;
+    font-weight: initial;
+}
+
+.mal{color: rgba(255, 255, 255, 0.5);}
+
+.style4 {
+     margin: 0 40%;
+    display: inline-block;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 5%);
+    color: rgba(255, 255, 255, 0.25);
+    padding: 1em 2em;
+    font-size: 0.9em;
+}
+
+.span-1-of-4 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.actions{
+    border-top: 1px solid rgba(255, 255, 255, 0.05);;
+    margin:6em 7em ;
+    padding-top: 6em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 6em;
+}
+
+span:hover{color: #fff;}
+
+#message{
+    width: 200%;
+    border-radius: 8px;
+    height: 10em;
+    background-color: #ccc;
+    padding:  0.75em 1em 0.75em 1em;
+    position:initial;
+    margin-top: -18%;
+}
+
+.foot1{margin-bottom: 2em;}
+
+.col1 input[type="text"]{
+    width: 95%;
+    border-radius: 0.4em;
+    background-color: #ccc;
+    padding:  0.75em 1em 0.75em 1em;
+}
+
+#meso:focus,
+#message:focus,
+#text:focus{background-color: #fff;}
+
+::placeholder{font-style: italic;}
+
+.reset{ background-color: rgba(0, 0, 0, 0.103);
+    margin-left: -35%;
+}
+
+.reset:hover{background-color: rgba(0, 0, 0, 0.041);}
+    
+.send{background-color: #e97770;}
+
+.col1 input[type="button"]{
+    letter-spacing: 0.25em;
+    border-radius: 0.35em;
+    border: 1px solid gray;
+    color: white;
+    font-weight: 700;
+    padding: 0 2.25em 0 2.25em;
+    font-size: 0.9em;
+    min-width: 12em;
+    height: 4em;
+    position:initial;
+    margin-top: -15%;
+}
+
+.deed{
+    color: #e97770 ;
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.span-1-of-4 i{
+    background-color:rgba(75, 75, 75, 0.52);
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    display: inline-block;
+    width: 40px;
+    border: 3px solid rgba(75,75,75,0.52);
+}
+
+.email{margin-left: 27%; }
+
+.phone,
+.email{
+    padding-top:60px ;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+ 
